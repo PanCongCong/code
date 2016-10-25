@@ -1,0 +1,289 @@
+/*global.css start*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+/*.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+    padding:0;
+}*/
+
+[class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+html,
+body {
+    height: 100%;
+    /*overflow: hidden;*/
+    background-color:#F5F5F5; 
+}
+
+div,
+form,
+img,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+p,
+input,
+body,
+strong,
+span,
+pre {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-repeat: no-repeat;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+body {
+    font-size: 12px;
+    font-family: "微软雅黑";
+    margin: 0px;
+    padding: 0px;
+    color: #4c4c4c;
+    line-height: 22px;
+    width: 100%;
+    position: relative;
+}
+
+/*body {
+    min-width: 1200px;width: auto;min-height:900px;height: auto !important;height: 900px; padding-bottom: 198px;height:auto;clear:both;
+}*/
+
+img {
+    border: 0px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #4c4c4c;
+    outline: none;
+}
+
+button {
+    background: none;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    background-repeat: no-repeat;
+}
+
+a,
+area {
+    blur: expression(this.onFocus=this.blur())
+}
+
+
+/*通用样式*/
+
+.qc {
+    overflow: hidden;
+    _zoom: 1;
+}
+
+.qf {
+    clear: both;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right
+}
+
+.none {
+    display: none;
+}
+
+.ml5 {
+    margin-left: 5px;
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mb50 {
+    margin-bottom: 50px;
+}
+
+.mtb30 {
+    margin: 30px 0;
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.mr30 {
+    margin-right: 30px;
+}
+
+.mr40 {
+    margin-right: 40px;
+}
+
+.ml15 {
+    margin-left: 15px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.btn-default {
+    text-shadow: none;
+}
+
+.height100 {
+    height: 100%;
+}
+
+.width200 {
+    width: 200px;
+}
+
+.width150 {
+    width: 150px;
+}
+
+.green {
+    color: #66cc00;
+}
+
+.black {
+    color: #000;
+}
+
+.blue {
+    color: #28a4ce;
+}
+
+.yellow {
+    color: #ffcc00;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.bg_blue {
+    background: #28a4ce;
+}
+
+.clear {
+    clear: both;
+    line-height: 0;
+    height: 0;
+    font-size: 0;
+}
+
+.web {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+input,
+button,
+select,
+textarea,
+a,
+i {
+    outline: none;
+    border: none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+label {
+    font-weight: normal;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+/*元素固定定位时，避免在ie6下元素抖动*/
+
+* html {
+    background: url(about:blank);
+}
+
+
+/*global.css end*/
